@@ -1,0 +1,20 @@
+SYSTEM INFORMATION REPORT
+=====================
+Hostname: DESKTOP-6RK37LP
+OS: GNU/Linux
+Kernel: 6.6.87.1-microsoft-standard-WSL2
+Uptime: up 1 hour, 3 minutes
+
+CPU Load: 0%
+RAM Usage: 515Mi/3.7Gi
+
+Disk Usage:
+/dev/sdd 1% /
+
+Top 5 Memory-Hungry Processes:
+USER       PID      %CPU  %MEM  COMMAND
+sxb        5545     3.3   4.2   /home/sxb/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node
+sxb        5483     0.7   2.2   /home/sxb/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node
+sxb        5672     0.4   1.7   /home/sxb/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node
+sxb        5496     0.1   1.3   /home/sxb/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node
+sxb        8867     0.0   1.3   /home/sxb/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node

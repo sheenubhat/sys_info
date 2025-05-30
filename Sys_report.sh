@@ -4,7 +4,7 @@
 
 # System Info Report
 
-echo "🖥️ SYSTEM INFORMATION REPORT"
+echo "SYSTEM INFORMATION REPORT"
 echo "====================="
 echo "Hostname: $(hostname)"
 echo "OS: $(uname -o)"
@@ -14,7 +14,7 @@ echo ""
 
 # CPU and RAM Usage
 echo "CPU Load: $(top -bn1 | grep 'Cpu(s)' | awk '{print $2 + $4}')%"
-echo "RAM Usage: $(free -h | awk '/Mem:/ {print $3 "\" $2}')"
+echo "RAM Usage: $(free -h | awk '/Mem:/ {print $3 "/" $2}')"
 echo ""
 
 # Disk Space Summary
